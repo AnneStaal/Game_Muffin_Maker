@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/javascript/index.js" defer></script>
+    <title>Muffin maker</title>
+</head>
+<body>
+    <header>
+        <h1>Muffin maker</h1>
+    </header>
+    <main>
+        <section id="kokKeuze">
+            <h2>Kies een kok?</h2>
+            <div id="kokKies">
+                <div class="koks">
+                    <img src="images/kok_man_1.png" alt="illustratie van een mannelijke kok met een lepel in zijn hand">
+                    <button>kok 1</button>
+                </div>
+                 <div class="koks">
+                    <img src="images/kok_man_2.png" alt="illustratie van een mannelijke kok met een vork in zijn hand">
+                    <button>kok 2</button>
+                </div>
+                <div class="koks">
+                    <img id="deGinger" src="images/kok_vrouw_1.png" alt="illustratie van vrouwelijke kok met een muffin">
+                    <button>kok 3</button>
+                </div>
+                <div class="koks">
+                    <img src="images/kok_vrouw_2.png" alt="illustratie van vrouwelijke kok met een garden">
+                    <button>kok 4</button>
+                </div>
+            </div>
+        </section>
+        <section id="muffinKeuze" class="aanrecht" style="display: none;">
+            <h2>Kies een vormpje voor je muffin?</h2>
+            <div id="muffinKies">
+                <div class="muffins">
+                    <img src="images/muffinVorm_1.png" alt="illustratie van een muffinbakje in het bruin">
+                    <button>Muffinvorm 1</button>
+                </div>
+                 <div class="muffins">
+                    <img src="images/muffinVorm_2.png" alt="illustratie van een muffinbakje in het rood">
+                    <button>Muffinvorm 2</button>
+                </div>
+                <div class="muffins">
+                    <img src="images/muffinVorm_3.png" alt="illustratie van een muffinbakje in het wit met groene sierlijke lijnen">
+                    <button>Muffinvorm 3</button>
+                </div>
+                <div class="muffins">
+                    <img src="images/muffinVorm_4.png" alt="illustratie van een muffinbakje in het bruin met strepen">
+                    <button>Muffinvorm 4</button>
+                </div>
+            </div>
+        </section>
+        <section id="beslagKeuze" class="aanrecht" style="display: none;">
+            <h2>Kies het beslag van je muffin?</h2>
+            <div id="beslagKies">
+                <div class="beslag">
+                    <img src="images/beslag_choco.png" alt="illustratie van een beslagkom met chocolade cake beslag">
+                    <button>Chocolade beslag</button>
+                </div>
+                 <div class="beslag">
+                    <img src="images/beslag_vanille.png" alt="illustratie van een beslagkom met vanille cake beslag">
+                    <button>Vanille beslag</button>
+                </div>
+                <div class="beslag">
+                    <img src="images/beslag_strawberry.png" alt="illustratie van een beslagkom met Aardbei cake beslag">
+                    <button>Aardbei beslag</button>
+                </div>
+                <div class="beslag">
+                    <img src="images/beslag_wortel.png" alt="illustratie van een beslagkom met wortle cake beslag">
+                    <button>Wortel beslag</button>
+                </div>
+            </div>
+            <div id="muffinvorm_gekozen">
+                <img src="images/muffinVorm_1.png" alt="illustratie van een muffinvorm in het rood">
+            </div>
+        </section>
+        <section id="oven" style="display: none;">
+            <h2>Je muffin is aan het bakken</h2>
+            <div id="ovenPic">
+                <img src="images/oven_bruin.png" alt="afbeelding van een oven met een muffinvorm erin">
+            </div>
+        </section>
+        <section id="slagroomKeuze" class="aanrecht" style="display: none;">
+            <h2>Kies de slagroom voor op je muffin?</h2>
+            <div id="slagroomKies">
+                <div class="slagroom">
+                    <img src="images/spuitzak_aardbei.png" alt="illustratie van een spuitzak met aardbeien slagroom">
+                    <button>Aardbeien slagroom</button>
+                </div>
+                 <div class="slagroom">
+                    <img src="images/spuitzak_choco.png" alt="illustratie van een spuitzak met chocolade slagroom">
+                    <button>Chocolade slagroom</button>
+                </div>
+                <div class="slagroom">
+                    <img src="images/spuitzak_vanille.png" alt="illustratie van een spuitzak met vanille slagroom">
+                    <button>Vanille slagroom</button>
+                </div>
+                <div class="slagroom">
+                    <img src="images/geen.png" alt="illustratie van een verboden bord">
+                    <button>Geen slagroom</button>
+                </div>
+            </div>
+            <div id="muffinvorm_gekozen">
+                <img src="images/bruin_vanille.png" alt="illustratie van een muffinvorm in het bruin met vanille beslag">
+            </div>
+        </section>
+         <section id="sprinkelsKeuze" class="aanrecht" style="display: none;">
+            <h2>Kies sprinkels voor op je muffin?</h2>
+            <div id="sprinkelsKies">
+                <div class="sprinkels">
+                    <img src="images/spuitzak_aardbei.png" alt="illustratie van een spuitzak met aardbeien slagroom">
+                    <button>Sprinkels</button>
+                </div>
+                <div class="sprinkels">
+                    <img src="images/geen.png" alt="illustratie van een verboden bord">
+                    <button>Geen sprinkels</button>
+                </div>
+            </div>
+            <div id="muffinvorm_gekozen">
+                <img src="images/aardbei/bruin_vanille_aardbei.png" alt="illustratie van een muffinvorm in het bruin met vanille beslag en aardbeien slagroom">
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+
+    </footer>
+        
+        
+</body>
+</html>
